@@ -1,0 +1,26 @@
+.container{
+    margin: 50px 0;
+}
+
+.card{
+    margin: 0 2% !important;
+    text-align: center;
+}
+
+.infected{
+    background-image: linear-gradient(rgba(0,0,255,0), rgba(0,0,255,1));
+}
+
+.recovered{
+    background-image: linear-gradient(rgba(0,255,0,0), rgba(0,255,0,1));
+}
+
+.deaths{
+    background-image: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1)); 
+}
+
+@media (max-width: 770px){
+    .card{
+        margin: 2% 0 !important; 
+    }
+}
