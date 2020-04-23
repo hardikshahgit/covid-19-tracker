@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Cards, Chart, CountryPicker} from './components';
 import styles from './App.module.css';
-import covidImage from './images/covidlogo.jpg';
+import covidImage from './images/covidlogo.png';
 
 import {fetchData} from './api';
 
